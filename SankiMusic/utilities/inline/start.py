@@ -46,7 +46,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="❀⋟ 𝐒ᴏᴜʀᴄᴇ ⋞❀", url="https://te.legra.ph/file/5fa7b4d86dcd5720ef30c.mp4"
             )
-        ]
+        ],
         [
             InlineKeyboardButton(
                 text="❀⋟ 𝐀ʙᴏᴜᴛ ⋞❀", url="https://t.me/RANAA_OP"

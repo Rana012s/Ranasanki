@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐑ᴀñᴀ ✘ 𝐌ʋsɩƈ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗝𝗲𝗿𝗿𝘆 𝗠𝘂𝘀𝗶𝗰")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5971645819").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -64,7 +64,7 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/bf8ec8f7d58ef2b43059a.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/4c12fd461b7448aebc125.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/ff935aaaf6744c265f315.jpg")
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -108,4 +108,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/bf8ec8f7d58ef2b43059a.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/4c12fd461b7448aebc125.jpg"
